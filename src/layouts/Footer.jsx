@@ -1,14 +1,23 @@
 import { Link } from "react-router-dom";
+import {
+  FaLinkedin,
+  FaGithub,
+  FaTwitter,
+  FaInstagram,
+  FaFacebook,
+} from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div>
+    <div className="ml-10 px-8">
       <footer className="footer">
         <div className="container">
           <div className="row">
             <div className="col-md-6 col-sm-12">
-              <h4>About Us</h4>
-              <p>
+              <h4 className="text-2xl text-center font-bold mb-5 text-blue-900">
+                About Us
+              </h4>
+              <p className="mb-5">
                 We are a team of passionate Python developers who love sharing
                 our knowledge with others. Our mission is to provide
                 high-quality tutorials, exercises, and references to help anyone
@@ -16,9 +25,9 @@ const Footer = () => {
               </p>
             </div>
 
-            <div className="col-md-3 col-sm-6">
-              <h4>Quick Links</h4>
-              <ul className="quick-links">
+            <div className="col-md-3 col-sm-6 ">
+              <h4 className="mb-0 underline font-semibold">Quick Links</h4>
+              <ul className="quick-links leading-10">
                 <li>
                   <Link to="/tutorial">Tutorials</Link>
                 </li>
@@ -34,14 +43,16 @@ const Footer = () => {
               </ul>
             </div>
             <div className="col-md-3 col-sm-6">
-              <h4>Follow Us</h4>
-              <ul className="social-icons">
+              <h4 className="mt-10 mb-8 text-center font-bold text-blue-900 text-2xl">
+                Follow Us
+              </h4>
+              <ul className="flex justify-center space-x-6 text-3xl mb-8">
                 <li>
                   <a
                     href="https://www.facebook.com/quarjo.young/"
                     title="contact me via facebook"
                   >
-                    <i className="fab fa-facebook"></i>
+                    <FaFacebook />
                   </a>
                 </li>
                 <li>
@@ -49,7 +60,7 @@ const Footer = () => {
                     href="https://twitter.com/quarjowusu/"
                     title="contact me via twitter"
                   >
-                    <i className="fab fa-twitter"></i>
+                    <FaTwitter />
                   </a>
                 </li>
                 <li>
@@ -57,7 +68,7 @@ const Footer = () => {
                     href="https://instagram.com/quarjowusu/"
                     title="contact me via instagram"
                   >
-                    <i className="fab fa-instagram"></i>
+                    <FaInstagram />
                   </a>
                 </li>
                 <li>
@@ -65,7 +76,7 @@ const Footer = () => {
                     href="https://www.linkedin.com/in/quarjo/"
                     title="contact me via linkedin"
                   >
-                    <i className="fab fa-linkedin"></i>
+                    <FaLinkedin />
                   </a>
                 </li>
                 <li>
@@ -73,7 +84,7 @@ const Footer = () => {
                     href="https://github.com/hacks-and-codes"
                     title="contact me via github"
                   >
-                    <i className="fab fa-github"></i>
+                    <FaGithub />
                   </a>
                 </li>
               </ul>
@@ -83,7 +94,7 @@ const Footer = () => {
             <hr />
 
             <div>
-              <p className="text-center">
+              <p className="text-center text-gray-400 mt-5">
                 &copy; 2021 Hacks and Codes. All Rights Reserved.
               </p>
             </div>

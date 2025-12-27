@@ -15,7 +15,7 @@ function SearchBar({ onSearch }) {
 
   return (
     <div>
-      <form
+      <form 
         onSubmit={handleSearch}
         className="flex justify-center items-center"
       >
@@ -24,11 +24,11 @@ function SearchBar({ onSearch }) {
           value={searchText}
           onChange={(event) => setSearchText(event.target.value)}
           placeholder="Search for a tutorial..."
-          className="p-2 border-2 border-gray-300 rounded mr-2"
+          className="p-2 border-2 border-gray-300 rounded-xl mr-2"
         />
         <button
           type="submit"
-          className="bg-green-500 text-lg/none border-none rounded text-slate-200 hover:cursor-pointer hover:bg-green-600"
+          className="bg-blue-500 text-md/none border-none rounded-xl text-slate-200 hover:cursor-pointer hover:bg-blue-600 py-2 px-2"
         >
           Search
         </button>

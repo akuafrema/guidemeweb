@@ -1,54 +1,61 @@
 const s = [
   {
-    title: "Data Science ",
+    title: "PythonDataVisualization",
     description:
-      "Data science is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from many structural and unstructured data.",
+      "This tutorial will teach you the basics of data visualization using Python. We will use the Matplotlib and Seaborn libraries to create various types of plots and charts. Data visualization is an important skill for data scientists and analysts, as it helps to communicate insights and findings effectively. In this tutorial, we will cover topics such as line plots, bar plots, histograms, scatter plots, and heatmaps. By the end of this tutorial, you will have a solid understanding of how to create visualizations in Python and be able to apply these skills to your own data analysis projects.",
 
-    link: "/data-science",
+    link: "/python data-visualization",
   },
   {
-    title: "Machine Learning ",
+    title: "PythonMachineLearning ",
     description:
       "This lesson uses the Iris dataset to demonstrate how to use the scikit-learn library to train a machine learning model. The programming language we'll use is Python. The Iris dataset is a classic dataset used in machine learning. It contains 150 samples of three different species of Iris flowers. The dataset contains four features: sepal length, sepal width, petal length, and petal width. The target variable is the species of the flower. The dataset is available in the scikit-learn library. The scikit-learn library is a free machine learning library for the Python programming language. It features various classification, regression, and clustering algorithms including support vector machines, random forests, gradient boosting, k-means, and DBSCAN. It also supports Python numerical and scientific libraries such as NumPy and SciPy. ",
 
-    link: "/machine-learning",
+    link: "/python machine-learning",
   },
   {
-    title: "Python Network Programming ",
+    title: "Python ",
     description:
-      "Python Network Programming. Let's learn how to create network applications using Python.",
+      "This lesson uses the Iris dataset to demonstrate how to use the scikit-learn library to train a machine learning model. The programming language we'll use is Python. The Iris dataset is a classic dataset used in machine learning. It contains 150 samples of three different species of Iris flowers. The dataset contains four features: sepal length, sepal width, petal length, and petal width. The target variable is the species of the flower. The dataset is available in the scikit-learn library. The scikit-learn library is a free machine learning library for the Python programming language. It features various classification, regression, and clustering algorithms including support vector machines, random forests, gradient boosting, k-means, and DBSCAN. It also supports Python numerical and scientific libraries such as NumPy and SciPy. ",
 
-    link: "/network-programming",
+    link: "/python",
   },
-  {
-    title: "Python GUI Programming",
-    description:
-      "Python GUI Programming. Let's learn how to create GUI applications using Python.",
+  // {
+  //   title: "Python Network Programming ",
+  //   description:
+  //     "Python Network Programming. Let's learn how to create network applications using Python.",
 
-    link: "/python-gui-programming",
-  },
-  {
-    title: "Python Game Development ",
-    description:
-      "Python Game Development. Let's learn how to create games using Python.",
+  //   link: "/network-programming",
+  // },
+  // {
+  //   title: "Python GUI Programming",
+  //   description:
+  //     "Python GUI Programming. Let's learn how to create GUI applications using Python.",
 
-    link: "/python-game-development",
-  },
+  //   link: "/python-gui-programming",
+  // },
+  // {
+  //   title: "Python Game Development ",
+  //   description:
+  //     "Python Game Development. Let's learn how to create games using Python.",
+
+  //   link: "/python-game-development",
+  // },
 
   {
     title: "JavaScript",
     description:
-      "JavaScritp is a programming language that adds interactivity to your website. Learn how to make web pages interactive and provide online programs and games.",
+      "JavaScript is a programming language that adds interactivity to your website. Learn how to make web pages interactive and provide online programs and games.",
     link: "/javascript",
   },
 
-  {
-    title: "React Native ",
-    description:
-      "Get started with React Native, a JavaScript framework for writing real, natively rendering mobile applications for iOS and Android.",
+  // {
+  //   title: "React Native ",
+  //   description:
+  //     "Get started with React Native, a JavaScript framework for writing real, natively rendering mobile applications for iOS and Android.",
 
-    link: "/react-native",
-  },
+  //   link: "/react-native",
+  // },
 
   {
     title: "SQL",
@@ -57,7 +64,7 @@ const s = [
     link: "/sql",
   },
   {
-    title: "Kali Linux ",
+    title: "Kali",
     description:
       "Kali Linux, a Debian-based Linux distribution aimed at advanced Penetration Testing and Security Auditing.",
 
@@ -137,6 +144,30 @@ const s = [
 
     link: "/kali-linux-exercises",
   },
+  {
+    title: "Python Machine Learning Exercises",
+    description: "Put your knowledge to the test with these exercises.",
+
+    link: "/machine-learning-exercises",
+  },
+  {
+    title: "Git Exercises",
+    description: "Put your knowledge to the test with these exercises.",
+
+    link: "/git-exercises",
+  },
+  {
+    title: "Python Data Visualization Exercises",
+    description: "Put your knowledge to the test with these exercises.",
+
+    link: "/data-visualization-exercises",
+  },
+  {
+    title: "Cryptography Exercises",
+    description: "Put your knowledge to the test with these exercises.",
+
+    link: "/cryptography-exercises",
+  },
 
   {
     title: "Python References",
@@ -184,7 +215,7 @@ const s = [
     title: "Python Cheat Sheet",
     description: "Python Cheat Sheet, memorize the Python syntax.",
 
-    link: "my-website\\src\\Python\\cheatsheet.js",
+    link: "my-website//src//Python//cheatsheet.js",
   },
   {
     title: "SQL Cheat Sheet",
